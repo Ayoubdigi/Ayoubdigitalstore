@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayoub Store Digi | L'innovation digitale à votre portée</title>
+    <title>Ayoub Store Digi | Magasin d'électronique</title>
+    
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,8 +18,7 @@
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#produits">Produits</a></li>
+                <li><a href="#objectifs">Nos Objectifs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -22,61 +26,81 @@
 
     <section id="accueil" class="hero">
         <div class="hero-content">
-            <h1>L'innovation digitale <br><span class="neon-text">à votre portée</span></h1>
-            <p>Électronique, Multimédia et Solutions Digitales à Témara.</p>
-            <a href="#produits" class="btn primary-btn">Découvrir nos offres</a>
-        </div>
-    </section>
+            <h1>Ayoub Store Digi</h1>
+            <p class="subtitle">Magasin d'électronique, Multimédia & Solutions Digitales</p>
+            
+            <div class="welcome-box">
+                <p>Welcome to your store</p>
+                <p>Bienvenue à votre store</p>
+                <p class="arabic-text">أهلاً وسهلاً بكم في متجركم</p>
+            </div>
 
-    <section id="services" class="section">
-        <h2>Nos <span class="neon-text">Services</span></h2>
-        <div class="grid-container">
-            <div class="card">
-                <h3>💻 Matériel Informatique</h3>
-                <p>Vente de PC, laptops, composants et accessoires de dernière génération.</p>
-            </div>
-            <div class="card">
-                <h3>🎮 Multimédia & Gaming</h3>
-                <p>Consoles, écrans haute résolution et setup gaming complets.</p>
-            </div>
-            <div class="card">
-                <h3>⚙️ Solutions Digitales</h3>
-                <p>Installation logicielle, maintenance et conseils sur mesure.</p>
+            <div class="btn-container">
+                <a href="#objectifs" class="btn primary-btn">Découvrir</a>
+                <a href="https://wa.me/212636919739" class="btn whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
             </div>
         </div>
     </section>
 
-    <section id="produits" class="section bg-darker">
-        <h2>Produits <span class="neon-text">Phares</span></h2>
-        <div class="grid-container">
-            <div class="product-card">
-                <div class="product-img placeholder-img">Image PC</div>
-                <h3>Laptop Gamer Pro</h3>
-                <p class="price">8 500 DH</p>
-                <button class="btn outline-btn">Voir détails</button>
+    <section id="objectifs" class="section">
+        <h2>Nos <span class="neon-text">Objectifs</span></h2>
+        <div class="goals-container">
+            <div class="goal-card">
+                <span class="goal-number">1</span>
+                <p class="goal-text-ar">هدفنا إرضائكم</p>
+                <p class="goal-text-fr">Notre but est votre satisfaction</p>
             </div>
-            <div class="product-card">
-                <div class="product-img placeholder-img">Image Smartphone</div>
-                <h3>Smartphone Ultra</h3>
-                <p class="price">4 200 DH</p>
-                <button class="btn outline-btn">Voir détails</button>
+            <div class="goal-card">
+                <span class="goal-number">2</span>
+                <p class="goal-text-ar">تقديم أحسن منتوج</p>
+                <p class="goal-text-fr">Fournir le meilleur produit</p>
             </div>
-            <div class="product-card">
-                <div class="product-img placeholder-img">Image Casque</div>
-                <h3>Casque Audio Sans Fil</h3>
-                <p class="price">850 DH</p>
-                <button class="btn outline-btn">Voir détails</button>
+            <div class="goal-card">
+                <span class="goal-number">3</span>
+                <p class="goal-text-ar">كسب ثقتكم</p>
+                <p class="goal-text-fr">Gagner votre confiance</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section bg-darker">
         <h2>Nous <span class="neon-text">Contacter</span></h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <p>📍 Adresse : Témara, Rabat, Maroc</p>
-                <p>📧 Email : contact@ayoubstore.com</p>
-                <p>📞 Téléphone : +212 6 XX XX XX XX</p>
+        
+        <div class="contact-wrapper">
+            <div class="contact-card">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h3>Téléphone</h3>
+                        <p><a href="tel:0636919739">0636-919739</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:ayoubbenmohamed463@gmail.com">ayoubbenmohamed463@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Adresse</h3>
+                        <p>Rabat, Maroc</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-facebook"></i>
+                    <div>
+                        <h3>Facebook</h3>
+                        <p><a href="https://www.facebook.com/profile.php?id=61587902458829" target="_blank">Ayoub store Digi</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -84,10 +108,6 @@
     <footer>
         <p>&copy; 2026 Ayoub Store Digi. Tous droits réservés.</p>
     </footer>
-
-    <a href="https://wa.me/2126XXXXXXXX" class="whatsapp-float" target="_blank">
-        💬 WhatsApp
-    </a>
 
 </body>
 </html>
